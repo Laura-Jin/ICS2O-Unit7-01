@@ -16,6 +16,6 @@ function randomGenerator () {
   if (randomNumber == userNumber) {
     document.getElementById('answer').innerHTML = 'You guessed the right number! Guess again!'
     // Once the user clicks the guess button, they will see if they were right or wrong and the number they entered will disappear, allowing them to guess again
-    document.getElementById('textbox'). value = ''
+    document.getElementById('textbox').value = ''
   }
 }
